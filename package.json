@@ -9,7 +9,7 @@
     "node":"18.x"
   },
   "scripts": {
-    "build": "nest build",
+    "build": "nest build --omit=dev",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node dist/main",
     "start:dev": "nest start --watch",
